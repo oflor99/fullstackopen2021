@@ -7,7 +7,6 @@ const StatisticLine = ({text, value}) =>{
 }
 
 const Statistics = ({good, neutral, bad, totalVotes, average, positive}) => {
-
   if (totalVotes == 0){
     return (
       <div>
@@ -15,7 +14,7 @@ const Statistics = ({good, neutral, bad, totalVotes, average, positive}) => {
       </div>
     )
   }
-
+  
   return (
     <div>
       <table>
